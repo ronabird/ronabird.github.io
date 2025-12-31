@@ -1,0 +1,167 @@
+/* BG */
+body {
+    background-image: url(https://i.imgur.com/OpHpMPy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #34342a
+    }
+/* FONTS */
+.ul--header {
+    font-family: sans-serif;
+    right: 0;
+    left: 0;
+    margin: auto;
+    grid-area: header;
+    font-size: 3em;
+    line-height: 10px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    color: #d89b48;
+    text-transform: lowercase;
+    font-weight: normal !important
+    }
+.ul--petsheader strong, .ul--sitetrophiesheader strong, .ul--gametrophiesheader strong {
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #a96021;
+    text-transform: lowercase
+    }
+strong {
+    color: #a96021;
+    font-family: sans-serif;
+    text-transform: lowercase;
+    font-weight: normal
+    }
+a, .ul--button {
+    color: #0A384C;
+    font-weight: normal;
+    transition: 0.5s
+    }
+a:hover {
+    color: #56A2F7
+    }
+::selection {
+    background: transparent;
+    color: #f6e0a5
+    }
+/* LAYOUT */
+#userLookupContent {
+    padding: 40px 0;
+    background: #fff;
+    width: 650px !important;
+    box-shadow: 0 2px 5px 2px #f6e0a5;
+    margin: auto;
+    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-areas: "header header header header" "nav nav nav nav" "desc desc desc desc" "about about about about" "ullink ullink ullink ullink" "pets pets pets pets" "sitetrophies sitetrophies sitetrophies sitetrophies" "gametrophies gametrophies gametrophies gametrophies" "blockandreport blockandreport blockandreport blockandreport"
+    }
+#page_banner, #sb_top, #sb_side, #page_footer, hr, #aio_sidebar, #aio_sidebar_placeholder, #userLookupShield, .ul--collectionslabel::after, #userLookupCollections strong, .ul--linktext.smallfont {
+    display: none
+    }
+#page_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto
+    }
+#userLookupInfo {
+    margin: auto;
+    padding: 10px;
+    grid-area: about;
+    display: grid;
+    grid-template-columns: 500px 100px;
+    grid-template-areas: "text collections";
+    background-color: #fff
+    }
+#userLookupText {
+    margin-left: 15px
+    }
+#userLookupCollections {
+    display: flex;
+    flex-direction: column
+    }
+#userReportBlock {
+    grid-area: blockandreport;
+    background-color: #fff;
+    padding: 10px
+    }
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px
+    }
+::-webkit-scrollbar-thumb {
+    background: transparent
+    }
+/* COLLECTIONS COLORS */
+.ul--tradesimg, .ul--scoresimg, .ul--neomailimg, .ul--auctionsimg, .ul--wishlistimg, .ul--neofriendimg, .ul--stampsimg {
+    filter: hue-rotate(-15deg) saturate(90%);
+    height: 50px;
+    width: auto;
+    opacity: 0.75;
+    transition: 0.5s
+    }
+/* COLLECTIONS */
+#userLookupSiteTrophies {
+    grid-area: sitetrophies;
+    background-color: #fff;
+    padding: 10px
+    }
+#userLookupGameTrophies {
+    grid-area: gametrophies;
+    background-color: #fff;
+    padding: 10px
+    }
+#userLookupSiteTrophies img, #userLookupGameTrophies img, #userLookupInfo img {
+    height: 80px;
+    width: auto;
+    opacity: 0.75;
+    transition: 0.5s
+    }
+#userLookupLinks {
+    grid-area: ullink;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 10px
+    }
+.ul--avatarsimg, .ul--stampsimg {
+    width: 60px !important;
+    height: auto !important
+    }
+#userLookupLinks img:hover, .ul--neofriendimg:hover, .ul--stampsimg:hover, .ul--avatarsimg:hover, #userLookupSiteTrophies img:hover, #userLookupGameTrophies img:hover, #userLookupPets img:hover {
+    opacity: 1
+    }
+.ul--neofriendimg {
+    transform: translatey(7px)
+    }
+/* PET CODE */
+#userLookupPets {
+    grid-area: pets;
+    background-color: #fff;
+    padding: 0;
+    width: 600px !important;
+    margin: auto
+    }
+#userLookupPets img {
+    opacity: 0.9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 110px;
+    transition: 0.5s
+    }
