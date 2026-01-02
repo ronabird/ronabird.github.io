@@ -1,6 +1,3 @@
-.ul__gametrophy {
-  order:999;
-}
 .ul__gametrophy.ul__game(20) {
   order:1;
 }
