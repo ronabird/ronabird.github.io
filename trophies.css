@@ -1,0 +1,36 @@
+.ul__gametrophy {
+  order:999;
+}
+.ul__gametrophy.ul__game(20) {
+  order:1;
+}
+.ul__gametrophy.ul__game(60) {
+  order:2;
+}
+.ul__gametrophy.ul__game(17) {
+  order:3;
+}
+.ul__gametrophy.ul__game(32) {
+  order:4;
+}
+.ul__gametrophy.ul__game(16) {
+  order:5;
+}
+.ul__gametrophy.ul__game(35) {
+  order:6;
+}
+.ul__gametrophy.ul__game(42) {
+  order:7;
+}
+.ul__gametrophy.ul__game(24) {
+  order:8;
+}
+.ul__gametrophy.ul__game(74) {
+  order:9;
+}
+.ul__gametrophy.ul__game(68) {
+  order:1;
+}
+.ul__gametrophy.ul__game(76) {
+  order:1;
+}
