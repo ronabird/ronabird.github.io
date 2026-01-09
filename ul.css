@@ -62,7 +62,7 @@ a:hover {
     right: 0;
     left: 0;
     display: grid;
-    grid-template-areas: "header header header header" "nav nav nav nav" "desc desc desc desc" "about about about about" "ullink ullink ullink ullink" "pets pets pets pets" "sitetrophies sitetrophies sitetrophies sitetrophies" "gametrophies gametrophies gametrophies gametrophies" "blockandreport blockandreport blockandreport blockandreport"
+    grid-template-areas: "header header header header" "nav nav nav nav" "desc desc desc desc" "about about about about" "ullink ullink ullink ullink" "pets pets pets pets" "gametrophies gametrophies gametrophies gametrophies" "sitetrophies sitetrophies sitetrophies sitetrophies" "blockandreport blockandreport blockandreport blockandreport"
     }
 #page_banner, #sb_top, #sb_side, #page_footer, hr, #aio_sidebar, #aio_sidebar_placeholder, #userLookupShield, .ul--collectionslabel::after, #userLookupCollections strong, .ul--linktext.smallfont {
     display: none
