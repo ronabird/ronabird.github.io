@@ -634,7 +634,7 @@
 .Salp__after {
     display: inline-block;
     align-self: center;
-    background: url(https://grundoscafe.b-cdn.net/items/snarhook_maraquan.gif);
+    background: url(https://grundoscafe.b-cdn.net/items/maraquan_twigbug.gif);
     background-size: contain;
     width: 60px;
     height: 60px
@@ -790,7 +790,15 @@
 .Tepal__after {
     display: inline-block;
     align-self: center;
-    background: url(https://grundoscafe.b-cdn.net/items/petpet_grobrin.gif);
+    background: url(https://grundoscafe.b-cdn.net/items/carma_maraquan.gif);
+    background-size: contain;
+    width: 60px;
+    height: 60px
+    }
+.Katabasian__after {
+    display: inline-block;
+    align-self: center;
+    background: url(https://grundoscafe.b-cdn.net/items/crabula_mutant.gif);
     background-size: contain;
     width: 60px;
     height: 60px
