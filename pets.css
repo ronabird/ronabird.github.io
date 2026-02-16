@@ -787,7 +787,7 @@
     width: 60px;
     height: 60px
     }
-.Tepal__after {
+.Trawler-man__after {
     display: inline-block;
     align-self: center;
     background: url(https://grundoscafe.b-cdn.net/items/carma_maraquan.gif);
@@ -799,6 +799,14 @@
     display: inline-block;
     align-self: center;
     background: url(https://grundoscafe.b-cdn.net/items/crabula_mutant.gif);
+    background-size: contain;
+    width: 60px;
+    height: 60px
+    }
+.Transcript__after {
+    display: inline-block;
+    align-self: center;
+    background: url(https://grundoscafe.b-cdn.net/items/moltenore_black.gif);
     background-size: contain;
     width: 60px;
     height: 60px
@@ -851,10 +859,26 @@
     width: 60px;
     height: 60px
     }
+.Eyass__after {
+    display: inline-block;
+    align-self: center;
+    background: url(https://grundoscafe.b-cdn.net/items/med_pet_albat.gif);
+    background-size: contain;
+    width: 60px;
+    height: 60px
+    }
 .Cocoan__after {
     display: inline-block;
     align-self: center;
     background: url(https://grundoscafe.b-cdn.net/items/pet_airax.gif);
+    background-size: contain;
+    width: 60px;
+    height: 60px
+    }
+.Drifted__after {
+    display: inline-block;
+    align-self: center;
+    background: url(https://grundoscafe.b-cdn.net/items/mastyxi_orange.gif);
     background-size: contain;
     width: 60px;
     height: 60px
